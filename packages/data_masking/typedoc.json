@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "../../typedoc.base.json"
+  ],
+  "entryPoints": [
+    "./src/kms/kms.ts",
+    "./src/base/index.ts",
+    "./src/ssm/index.ts",
+    "./src/types/SSMProvider.ts",
+    "./src/dynamodb/index.ts",
+    "./src/types/SecretsProvider.ts",
+    "./src/base/index.ts",
+    "./src/errors.ts",
+    "./src/constants.ts",
+  ],
+  "readme": "README.md"
+}
